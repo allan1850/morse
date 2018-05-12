@@ -1,22 +1,16 @@
 import RPi.GPIO as GPIO
 import time
 
-constant = .250
+constant = .500
 pinNum = 16
 
 GPIO.setmode(GPIO.BCM) 
 GPIO.setup(pinNum,GPIO.OUT) 
-
-while True:
-  GPIO.output(pinNum,GPIO.HIGH)
-  time.sleep(0.5)
-  GPIO.output(pinNum,GPIO.LOW)
-  time.sleep(0.5)
+GPIO.setwarnings(False)
 
 
 
-
-str = "SOS"
+str = "This is a test string, just testing stuff."
 str1 = ""
 output = ""
 constant = .250
