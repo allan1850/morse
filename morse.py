@@ -120,12 +120,8 @@ for i in output:
         time.sleep(3 * constant)
         GPIO.output(pinNum,GPIO.LOW)
     if i == ' ':
-        GPIO.output(pinNum,GPIO.HIGH)
         time.sleep(2 * constant)
-        GPIO.output(pinNum,GPIO.LOW)
     if i == '|':
-        GPIO.output(pinNum,GPIO.HIGH)
         time.sleep(6 * constant)
-        GPIO.output(pinNum,GPIO.LOW)
     time.sleep(constant)
 
