@@ -24,7 +24,6 @@ for i in str:
         str1 = str1 + i
         
 str1 = str1.lower()
-print(str1)
 
 for i in str1:
     if i == 'a':
