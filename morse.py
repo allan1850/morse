@@ -10,10 +10,10 @@ GPIO.setwarnings(False)
 
 
 
-str = "This is a test string, just testing stuff."
+str = input("Input string:")
 str1 = ""
 output = ""
-constant = .250
+
 
 for i in str:
     if i.isalpha():
